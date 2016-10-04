@@ -1,0 +1,24 @@
+{
+  "name": "angular-background-image-placeholder",
+  "version": "1.0.0",
+  "description": "Angular directive for loading a temporary backgroundImage placeholder while loading the actual backgroundImage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patidati/angular-background-image-placeholder.git"
+  },
+  "keywords": [
+    "angular",
+    "backgroundImage",
+    "placeholder"
+  ],
+  "author": "Patricio Alexander Castillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patidati/angular-background-image-placeholder/issues"
+  },
+  "homepage": "https://github.com/patidati/angular-background-image-placeholder#readme"
+}
