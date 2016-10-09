@@ -3,10 +3,10 @@
   /* global angular */
 
   angular
-    .module('ac-background-image-placeholder', [
-      'ac-background-image-placeholder.directives'
+    .module('ac-background-image', [
+      'ac-background-image.directives'
     ]);
 
   angular
-    .module('ac-background-image-placeholder.directives', []);
+    .module('ac-background-image.directives', []);
 })();
