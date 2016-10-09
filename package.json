@@ -1,6 +1,6 @@
 {
   "name": "angular-background-image-placeholder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular directive for loading a temporary backgroundImage placeholder while loading the actual backgroundImage.",
   "main": "index.js",
   "scripts": {
