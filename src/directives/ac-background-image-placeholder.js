@@ -3,7 +3,7 @@
 
   'use strict';
   angular
-    .module('sf-admin.directives')
+    .module('ac-background-image.directives')
     .directive('acBackgroundImage', acBackgroundImage);
 
   function acBackgroundImage() {
