@@ -4,21 +4,33 @@
   "description": "Angular directive for loading a temporary backgroundImage placeholder while loading the actual backgroundImage.",
   "main": "index.js",
   "scripts": {
+    "build": "uglifyjs-folder ./src -o ./angular-background-image-placeholder.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patidati/angular-background-image-placeholder.git"
+    "url": "git+https://github.com/palexcast/angular-background-image-placeholder.git"
   },
   "keywords": [
     "angular",
     "backgroundImage",
     "placeholder"
   ],
-  "author": "Patricio Alexander Castillo",
+  "author": "@palexcast",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/patidati/angular-background-image-placeholder/issues"
+    "url": "https://github.com/palexcast/angular-background-image-placeholder/issues"
   },
-  "homepage": "https://github.com/patidati/angular-background-image-placeholder#readme"
+  "homepage": "https://github.com/palexcast/angular-background-image-placeholder#readme",
+  "dependencies": {
+    "angular": "^1.5.x"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.8",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "uglifyjs-folder": "^0.3.0"
+  }
 }
