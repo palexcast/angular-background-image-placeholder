@@ -9,13 +9,13 @@ $ npm install angular-background-image-placeholder
 ``` 
 
 Add to your HTML (or build script or whatever). Remember to load it after angular itself.
-```
+```html
 <script type="text/javascript" src="./node_modules/angular/angular.min.js"></script>
 <script type="text/javascript" src="./node_modules/angular-background-image-placeholder/angular-background-image-placeholder.min.js"></script>
 ```
 
 Add to your app's dependency array
-``` 
+```javascript
 angular
   .module('my-module', [
     'ac-background-image'
@@ -23,15 +23,15 @@ angular
 ```
 
 ## Example use
-```
+```html
 <element ac-background-image background-image="./cats.jpg" placeholder="data:image/png;base64,iVBORw0..."></element>
 ```
 
 ### Result
-```
+```html
 <element ac-background-image background-image="./cats.jpg" placeholder="data:image/png;base64,..." style="position:relative;">
     <div class="ac-bg-img__full-size" style="background-image:url(./cats.jpg);position:absolute;left:0;top:0;bottom:0;right:0;"></div>
-    <div class="ac-bg-img__placeholder" style="background-image:url(data:image/png;base64,...);position:absolute;left:0;top:0;bottom:0;right:0;opacity:0"></div
+    <div class="ac-bg-img__placeholder" style="background-image:url(data:image/png;base64,...);position:absolute;left:0;top:0;bottom:0;right:0;opacity:0"></div>
 </element>
 ```
 
