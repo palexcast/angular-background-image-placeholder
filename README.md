@@ -31,7 +31,7 @@ angular
 ```html
 <element ac-background-image background-image="./cats.jpg" placeholder="data:image/png;base64,..." style="position:relative;">
     <div class="ac-bg-img__full-size" style="background-image:url(./cats.jpg);position:absolute;left:0;top:0;bottom:0;right:0;"></div>
-    <div class="ac-bg-img__placeholder" style="background-image:url(data:image/png;base64,...);position:absolute;left:0;top:0;bottom:0;right:0;opacity:0"></div
+    <div class="ac-bg-img__placeholder" style="background-image:url(data:image/png;base64,...);position:absolute;left:0;top:0;bottom:0;right:0;opacity:0"></div>
 </element>
 ```
 
